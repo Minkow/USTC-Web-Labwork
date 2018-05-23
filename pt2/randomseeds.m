@@ -1,0 +1,3 @@
+function seeds = randomseeds(G,k) %实验说明里用了非法函数名...
+    vec = randperm(length(G));
+    seeds = vec(1:k);
